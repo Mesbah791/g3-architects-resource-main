@@ -1,0 +1,316 @@
+/* Common Styles */
+body{
+    font-family: 'Poppins', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
+
+/* Header Styles */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+.G3-Architect-text{
+    
+    font-size: 45px;
+    padding-left: 200px;
+}
+.Menu{
+    display: flex;
+    padding-right: 200px;
+    }
+.menu-item{
+   margin-left: 10px;
+   margin-right: 10px;
+   font-size: 18px;
+}
+/* First Section Styles */
+.First-section{
+    height: 1022px;
+    margin: -8px;
+    background-color:rgb(253, 240, 240);
+   
+}
+.banner{
+    width: 940px;
+    height: auto;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #888888;
+}
+.div-banner{
+   
+    padding-left: 15%;
+    padding-right: 10%;
+
+}
+.First-section-text{
+   text-align: center;
+   width: 940px;
+   margin: 0;
+   padding: 0;
+   justify-content: center;
+   align-items: center;
+   padding-left: 15%;
+   padding-bottom: 30px;
+   
+}
+.First-section-text h1{
+    font-size: 64px;
+    
+}
+.First-section-text p{
+    font-size: 20px;
+}
+.First-section a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #FF900E;
+    width:180px;
+    height: 64px;
+    display: inline-block; /* Make the anchor a block-level element to apply the width and height */
+    line-height: 64px; /* Vertically center the text */
+    text-align: center; /* Horizontally center the text */
+    background-color: #FF900E;
+    border-radius: 7px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.common-button{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #FF900E;
+    width:180px;
+    height: 64px;
+    display: inline-block; /* Make the anchor a block-level element to apply the width and height */
+    line-height: 64px; /* Vertically center the text */
+    text-align: center; /* Horizontally center the text */
+    background-color: #FF900E;
+    border-radius: 7px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+ 
+}
+.pop-out-link{
+   
+}
+.pop-out-link:hover{
+    transform: scale(1.2);
+    transition: transform 1s ease;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    
+}
+
+.pop-out-link:not(:hover) {
+    transform: scale(1); 
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); 
+    transition: transform 1s ease;
+}
+
+/* Second Section Styles */
+.Teams{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 642px;
+    height: 642px;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    padding-left: 10%;
+    padding-top: 10%;
+}
+.Team{
+    width: 242px;
+    height: 242px;
+}
+.Team img{
+    width: 242px;
+    height: 242px;
+}
+.Container-2{
+    display: flex;
+}
+.halfwidth-main{
+    width: 50%;
+}
+.Teams.half-width{
+    width: 484px;
+    height: 482px;
+}
+.Team-description{
+    padding: 10%;
+    padding-top: 15%;
+}
+.Quick-list{
+    color: #727272;
+    font-size: 45px;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+
+}
+.Of-our{
+    color: #131313;
+    font-size: 45px
+
+}
+.Features{
+    color: #FF900E;
+    font-size: 45px;
+}
+.color{
+    color: #727272;
+}
+
+/* Third Section Styles */
+.container-3 {
+    display: grid; /* Make the container a flex container */
+    grid-template-columns: 1fr 1fr;
+    align-items: center; /* Center items vertically within the container */
+    justify-content: space-between; /* Add space between the items */
+    grid-column-gap: 20px;
+}
+
+.What-we-do {
+    grid-area: 1 / 1 / 2 / 2; /* Allow What-we-do to grow and take available space */
+}
+
+.Architect-image {
+    max-width: 90%; /* Ensure the image doesn't exceed its container's width */
+    height: auto; /* Maintain the aspect ratio of the image */
+    padding-left: 10%;
+
+}
+.Architect-Features{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    grid-area: 1 / 2 / 2 / 3;
+    border-radius: 8px;
+  
+}
+.colored-padding-text {
+    position: relative; /* Set position to relative */
+    padding-left: 5px; /* Add left padding */
+    color: white; /* Text color */
+  }
+  
+  .colored-padding-text::before {
+    content: ""; /* Add content for pseudo-element */
+    position: absolute; /* Set position to absolute */
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 5px; /* Width of the colored padding */
+    background-color: orange; /* Color of the left padding */
+    z-index: -1; /* Place it behind the text */
+  }
+  .h1{
+    color: #131313;
+    font-size: 45px;
+  }
+
+
+  .Fact {
+     /* Use flexbox to center-align content */
+    align-items: center; /* Center content vertically */
+    border: 2px solid #FF900E; /* Add a border with the desired color */
+    padding: 10px; /* Add padding for spacing */
+    justify-content: center;
+}
+
+.Fact img {
+    margin-right: 10px; /* Add spacing between the image and text */
+    width: 41px;
+    height: 41px;
+}
+.Facts{
+    display: flex;
+    justify-content: space-around;
+}
+.Fourth-section{
+    padding-top: 40px;
+}
+
+/* Fifth Section Styles */
+.Fifth-section{
+    padding-top: 50px;
+}
+.Our-sponsers-1{
+   text-align: center;
+}
+.Our-sponsers-1 h1{
+    font-size: 45px;
+}
+.Our-sponsers-2{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+/* footer styles */
+footer{
+    justify-content: center;
+    padding-top: 60px;
+    
+}
+.footer{
+    width:80%;
+    height: 100px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: bisque;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-radius: 7px;
+}
+.footer-text{
+    justify-content: center;
+    padding-top: 4%;
+}
+/* Media Query */
+
+@media screen and (max-width: 480px) {
+   main{
+    width: 375px;
+   }
+   
+    body{
+    width: 375;
+   }
+   .First-section{
+    width: 375px;
+   }
+    .div-banner{
+    width: 320px;
+    padding: 30px;
+   }
+   .banner{
+    width: 320px;
+   }
+   
+    .G3-Architect-text{
+    font-size: 20px;
+    padding-left: 20px;
+   }
+   .menu-item h3{
+    font-size: 10px;
+   }
+   .First-section-text h1{
+    font-size: 24px;
+    width: 250px;
+    
+   }
+   .First-section-text p{
+    font-size: 20px;
+    width: 250px;
+   }
+   .First-section-text a{
+     padding-right: 300px;
+   }
+   
+   
+   .Menu{
+      padding-right: 10px;
+   }
+}
